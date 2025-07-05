@@ -39,6 +39,36 @@
   background-color: #fef3c7;
 }
 
+.bg-gray-300 {
+  background-color: #d1d5db;
+}
+
+.bg-gray-500 {
+  background-color: #6b7280;
+}
+
+/* Text colors */
+.text-white {
+  color: #ffffff;
+}
+
+/* Text sizes */
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+/* Font weights */
+.font-bold {
+  font-weight: 700;
+}
+
+/* Spacing */
 .p-2 {
   padding: 0.5rem;
 }
@@ -47,12 +77,35 @@
   padding: 1rem;
 }
 
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .gap-2 {
   gap: 0.5rem;
 }
 
 .gap-4 {
   gap: 1rem;
+}
+
+.space-x-5 > :not([hidden]) ~ :not([hidden]) {
+  margin-left: 1.25rem;
+}
+
+/* Border radius */
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+/* Hover effects */
+.hover\:bg-gray-500:hover {
+  background-color: #6b7280;
 }
 
 @media (max-width: 768px) {

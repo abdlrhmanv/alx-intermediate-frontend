@@ -1,4 +1,7 @@
 /*! tailwindcss v4.1.11 | MIT License | https://tailwindcss.com */
+.flex {
+  display: flex;
+}
 .grid {
   display: grid;
 }
@@ -7,6 +10,9 @@
 }
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.justify-center {
+  justify-content: center;
 }
 .bg-blue-200 {
   background-color: #dbeafe;
@@ -35,17 +41,53 @@
 .bg-yellow-200 {
   background-color: #fef3c7;
 }
+.bg-gray-300 {
+  background-color: #d1d5db;
+}
+.bg-gray-500 {
+  background-color: #6b7280;
+}
+.text-white {
+  color: #ffffff;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.font-bold {
+  font-weight: 700;
+}
 .p-2 {
   padding: 0.5rem;
 }
 .p-4 {
   padding: 1rem;
 }
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.mb-4 {
+  margin-bottom: 1rem;
+}
 .gap-2 {
   gap: 0.5rem;
 }
 .gap-4 {
   gap: 1rem;
+}
+.space-x-5 > :not([hidden]) ~ :not([hidden]) {
+  margin-left: 1.25rem;
+}
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+.hover\:bg-gray-500:hover {
+  background-color: #6b7280;
 }
 @media (max-width: 768px) {
   main {
