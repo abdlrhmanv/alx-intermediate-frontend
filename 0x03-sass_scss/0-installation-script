@@ -1,0 +1,4 @@
+# 0-installation-script
+
+# Install SASS using npm
+npm install sass -v 3.7.4
